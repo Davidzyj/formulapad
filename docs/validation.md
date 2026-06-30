@@ -64,6 +64,14 @@ Target build settings confirm:
 
 The source Info.plist intentionally does not hard-code `UIDeviceFamily`; Xcode derives the built app value from `TARGETED_DEVICE_FAMILY = 1`.
 
+Built app Info.plist confirms:
+
+- `CFBundleIdentifier => com.zhouyajie.formulapad`
+- `CFBundleShortVersionString => 1.0.0`
+- `ITSAppUsesNonExemptEncryption => false`
+- `UIDeviceFamily` is present in the built product
+- `UIUserInterfaceStyle => Light`
+
 ## StoreKit Scheme
 
 The shared scheme contains:
