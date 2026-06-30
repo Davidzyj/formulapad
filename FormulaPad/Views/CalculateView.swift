@@ -45,6 +45,7 @@ struct CalculateView: View {
                             axis: .vertical
                         )
                         .focused($focused, equals: .expression)
+                        .formulaInputBehavior()
                         .font(.system(.title3, design: .monospaced))
                         .lineLimit(3...6)
                         .textInput()

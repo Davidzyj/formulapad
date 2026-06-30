@@ -26,13 +26,14 @@ Coverage:
 ### Calculate And History
 
 1. Open Calculate.
-2. Enter `20000 * (1 + 0.035)^3`.
-3. Tap Calculate.
-4. Confirm result is `22174.3575`.
-5. Open History.
-6. Confirm the expression and result are visible.
-7. Tap Reuse.
-8. Confirm Calculate opens with the expression restored.
+2. Confirm the formula field opens an ASCII-capable keyboard, does not auto-capitalize, and does not autocorrect function or variable names.
+3. Enter `20000 * (1 + 0.035)^3`.
+4. Tap Calculate.
+5. Confirm result is `22174.3575`.
+6. Open History.
+7. Confirm the expression and result are visible.
+8. Tap Reuse.
+9. Confirm Calculate opens with the expression restored.
 
 ### Variables
 
@@ -81,9 +82,10 @@ Coverage:
 1. Open Tools > Plot without Pro.
 2. Confirm Pro gate appears.
 3. Unlock Pro in StoreKit test mode.
-4. Enter `x^2`.
-5. Tap Plot and confirm a curve appears.
-6. Save Plot and confirm History receives the entry.
+4. Confirm the function field opens an ASCII-capable keyboard and does not autocorrect `sin`, `cos`, or variable `x`.
+5. Enter `x^2`.
+6. Tap Plot and confirm a curve appears.
+7. Save Plot and confirm History receives the entry.
 
 ### Language
 
@@ -117,4 +119,3 @@ Coverage:
 3. Confirm target build settings use `INFOPLIST_FILE = FormulaPad/Resources/Info.plist`.
 4. Confirm `TARGETED_DEVICE_FAMILY = 1`.
 5. Confirm app icon is 1024x1024 and `hasAlpha: no`.
-

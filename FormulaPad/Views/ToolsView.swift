@@ -411,6 +411,7 @@ struct PlotView: View {
                             prompt: Text(store.t("plot.placeholder")).foregroundStyle(AppColor.placeholder)
                         )
                         .focused($focused)
+                        .formulaInputBehavior()
                         .textInput()
                         .submitLabel(.done)
                         .onSubmit { focused = false }
@@ -579,4 +580,3 @@ struct PlotGraph: View {
         context.stroke(grid, with: .color(AppColor.line), lineWidth: 1)
     }
 }
-

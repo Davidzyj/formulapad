@@ -90,5 +90,11 @@ extension View {
             .background(AppColor.background.ignoresSafeArea())
             .preferredColorScheme(.light)
     }
-}
 
+    func formulaInputBehavior() -> some View {
+        self
+            .keyboardType(.asciiCapable)
+            .textInputAutocapitalization(.never)
+            .autocorrectionDisabled(true)
+    }
+}
