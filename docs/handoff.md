@@ -30,6 +30,7 @@ FormulaPad is a SwiftUI iPhone-only app built from an empty directory. It is a l
 - App icon: `FormulaPad/Resources/Assets.xcassets/AppIcon.appiconset/FormulaPadIcon.png`
 - StoreKit config: `FormulaPad/Resources/StoreKit/FormulaPad.storekit`
 - GitHub Pages pages: `docs/index.html`, `docs/privacy.html`, `docs/support.html`
+- App Store screenshots: `screenshots/6.5/zh-Hans/`
 
 ## Regenerating Project
 
@@ -52,6 +53,26 @@ Verified on June 30, 2026:
 
 - Build succeeded.
 - Test succeeded: 5 tests, 0 failures.
+
+## Screenshots
+
+Simplified Chinese 6.5-inch screenshots were captured on TrailLevel 6.5:
+
+```sh
+scripts/capture_app_store_screenshots.sh
+```
+
+Output:
+
+- `screenshots/6.5/zh-Hans/01-calculate.png`
+- `screenshots/6.5/zh-Hans/02-history.png`
+- `screenshots/6.5/zh-Hans/03-notes.png`
+- `screenshots/6.5/zh-Hans/04-templates.png`
+- `screenshots/6.5/zh-Hans/05-convert.png`
+- `screenshots/6.5/zh-Hans/06-plot.png`
+- `screenshots/6.5/zh-Hans/contact-sheet.png`
+
+Each App Store screenshot is 1242x2688 and has no alpha channel.
 
 ## StoreKit
 
@@ -114,7 +135,6 @@ Public URLs:
 
 ## Known Follow-Ups
 
-- Add App Store screenshots later.
 - Create App Store Connect product and final price tier.
 - Archive with the owner Apple Developer team.
 - Validate StoreKit purchase flow with sandbox account after IAP is approved for testing.

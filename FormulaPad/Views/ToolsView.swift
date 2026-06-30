@@ -10,7 +10,7 @@ enum ToolsSegment: String, CaseIterable, Identifiable {
 
 struct ToolsView: View {
     @EnvironmentObject private var store: FormulaPadStore
-    @State private var segment: ToolsSegment = .templates
+    @State private var segment: ToolsSegment = ScreenshotSupport.toolsSegment
 
     var body: some View {
         NavigationStack {
@@ -42,9 +42,9 @@ struct ToolsView: View {
 struct TemplatesView: View {
     @EnvironmentObject private var store: FormulaPadStore
     @EnvironmentObject private var purchaseManager: PurchaseManager
-    @State private var expandedTemplateID: String?
-    @State private var fieldValues: [String: [String: String]] = [:]
-    @State private var results: [String: TemplateResult] = [:]
+    @State private var expandedTemplateID: String? = ScreenshotSupport.scenario == .templates ? "compound" : nil
+    @State private var fieldValues: [String: [String: String]] = ScreenshotSupport.templateFieldValues
+    @State private var results: [String: TemplateResult] = ScreenshotSupport.templateResults
     @State private var errors: [String: String] = [:]
     @State private var showingPro = false
     @FocusState private var focusedField: String?
@@ -242,10 +242,10 @@ struct TemplatesView: View {
 struct ConverterView: View {
     @EnvironmentObject private var store: FormulaPadStore
     @EnvironmentObject private var purchaseManager: PurchaseManager
-    @State private var categoryID = UnitCatalog.all[0].id
-    @State private var fromID = UnitCatalog.all[0].units[0].id
-    @State private var toID = UnitCatalog.all[0].units[1].id
-    @State private var value = "1"
+    @State private var categoryID = ConverterView.initialCategoryID
+    @State private var fromID = ConverterView.initialFromID
+    @State private var toID = ConverterView.initialToID
+    @State private var value = ConverterView.initialValue
     @FocusState private var focused: Bool
 
     var body: some View {
@@ -329,6 +329,22 @@ struct ConverterView: View {
 
     private var currentCategory: UnitCategory {
         UnitCatalog.all.first { $0.id == categoryID } ?? UnitCatalog.all[0]
+    }
+
+    private static var initialCategoryID: String {
+        ScreenshotSupport.scenario == .convert ? "temperature" : UnitCatalog.all[0].id
+    }
+
+    private static var initialFromID: String {
+        ScreenshotSupport.scenario == .convert ? "celsius" : UnitCatalog.all[0].units[0].id
+    }
+
+    private static var initialToID: String {
+        ScreenshotSupport.scenario == .convert ? "fahrenheit" : UnitCatalog.all[0].units[1].id
+    }
+
+    private static var initialValue: String {
+        ScreenshotSupport.scenario == .convert ? "26" : "1"
     }
 
     private var fromUnit: UnitDefinition {

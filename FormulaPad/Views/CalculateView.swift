@@ -151,6 +151,7 @@ struct CalculateView: View {
                     expression = store.calculationDraft
                     store.calculationDraft = ""
                 }
+                applyScreenshotStateIfNeeded()
             }
             .onChange(of: store.calculationDraft) { _, newValue in
                 guard !newValue.isEmpty else { return }
@@ -214,6 +215,17 @@ struct CalculateView: View {
         focused = nil
         UIPasteboard.general.string = result
         store.flash(store.t("calculate.copied"))
+    }
+
+    private func applyScreenshotStateIfNeeded() {
+        #if DEBUG
+        guard ScreenshotSupport.isEnabled, ScreenshotSupport.scenario == .calculate else { return }
+        if expression.isEmpty {
+            expression = "principal * (1 + rate)^years"
+        }
+        result = "22174.3575"
+        errorMessage = nil
+        #endif
     }
 }
 

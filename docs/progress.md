@@ -45,3 +45,11 @@
 - Validated Info.plist with `plutil`.
 - Confirmed target uses `FormulaPad/Resources/Info.plist`.
 - Confirmed app icon dimensions and no alpha channel.
+
+### Stage 6: App Store Screenshots
+
+- Added Debug-only screenshot seed data for real running-app captures.
+- Added screenshot automation scripts under `scripts/`.
+- Captured Simplified Chinese 6.5-inch screenshots on TrailLevel 6.5.
+- Verified all six screenshots are 1242x2688 PNG files with no alpha channel.
+- Generated a contact sheet for quick visual review.

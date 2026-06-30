@@ -6,6 +6,7 @@
 - Xcode: 26.2
 - Swift: 6.2.3 compiler, project set to Swift 5 mode
 - Simulator used for tests: iPhone 17, iOS 26.2
+- Simulator used for screenshot verification: TrailLevel 6.5, iOS 26.2
 
 ## Build
 
@@ -34,6 +35,7 @@ Result:
 - 5 tests passed.
 - 0 failures.
 - Re-ran successfully after project regeneration.
+- Re-ran successfully on TrailLevel 6.5 after adding screenshot automation.
 
 ## Info.plist
 
@@ -102,3 +104,31 @@ Confirmed:
 - Repository created: `https://github.com/Davidzyj/formulapad`
 - Pages URL: `https://davidzyj.github.io/formulapad/`
 - Pages source: `main:/docs`
+
+## App Store Screenshots
+
+Command:
+
+```sh
+scripts/capture_app_store_screenshots.sh
+```
+
+Simulator:
+
+- TrailLevel 6.5
+- UDID: `FC791334-2F7B-48AD-93E2-44DF010891BE`
+
+Result:
+
+- `screenshots/6.5/zh-Hans/01-calculate.png`: 1242x2688, alpha=no
+- `screenshots/6.5/zh-Hans/02-history.png`: 1242x2688, alpha=no
+- `screenshots/6.5/zh-Hans/03-notes.png`: 1242x2688, alpha=no
+- `screenshots/6.5/zh-Hans/04-templates.png`: 1242x2688, alpha=no
+- `screenshots/6.5/zh-Hans/05-convert.png`: 1242x2688, alpha=no
+- `screenshots/6.5/zh-Hans/06-plot.png`: 1242x2688, alpha=no
+
+OCR checks passed for expected page content. Contact sheet reviewed at:
+
+```text
+screenshots/6.5/zh-Hans/contact-sheet.png
+```

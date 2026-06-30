@@ -119,3 +119,12 @@ Coverage:
 3. Confirm target build settings use `INFOPLIST_FILE = FormulaPad/Resources/Info.plist`.
 4. Confirm `TARGETED_DEVICE_FAMILY = 1`.
 5. Confirm app icon is 1024x1024 and `hasAlpha: no`.
+
+## App Store Screenshot Tests
+
+1. Boot TrailLevel 6.5.
+2. Run `scripts/capture_app_store_screenshots.sh`.
+3. Confirm the script captures Calculate, History, Notes, Templates, Convert, and Plot.
+4. Confirm every App Store screenshot is `1242x2688`.
+5. Confirm every App Store screenshot reports `alpha=no`.
+6. Review `screenshots/6.5/zh-Hans/contact-sheet.png` for wrong pages, system alerts, blank views, and unreadable text.

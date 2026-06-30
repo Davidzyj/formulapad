@@ -25,7 +25,10 @@ final class PurchaseManager: ObservableObject {
     }
 
     var isPro: Bool {
-        purchasedProductIDs.contains(Self.proProductID)
+        if ScreenshotSupport.isEnabled {
+            return true
+        }
+        return purchasedProductIDs.contains(Self.proProductID)
     }
 
     var proProduct: Product? {
