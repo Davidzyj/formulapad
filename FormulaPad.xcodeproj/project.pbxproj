@@ -7,195 +7,177 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02A1773029443D7AAD513458 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217329BA18F5D07BB53D08C /* LocalizationService.swift */; };
-		04330176F7AD27D4A51B4529 /* FormulaPad.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 1274ED8B3AD4F63C8C392943 /* FormulaPad.storekit */; };
-		056EBA24CB32C3D47949818F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041392294FE92060D9F6AAE0 /* HistoryView.swift */; };
-		121BAD13175D3541FB9485F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99447246C8F91B09E38A8CFE /* Assets.xcassets */; };
-		13DE0ACF68F9CA6729BB09AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D66E8C4D43B8452A19794F /* Localizable.strings */; };
-		2ABF6447156E9FA11EBA9784 /* UnitCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741AA98FC3586C49D7BF45 /* UnitCatalog.swift */; };
-		35FE28716E1E1C7414CB90A1 /* FormulaPadStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21985472309D271CC738605 /* FormulaPadStore.swift */; };
-		3856C1B9D9C471A9389CA1D7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A38123870EF19174663576 /* RootView.swift */; };
-		45416EE3DB5EE8959F1DE317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA39F66C91D2E4A6AF17450C /* InfoPlist.strings */; };
-		523BA72CB4585D3177A8554D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D69208D6162E2495E6A25D /* Foundation.framework */; };
-		5F84B41C827AC9A2DBF99362 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FEEE69E80EB9ADA353A89C /* AppStyle.swift */; };
-		6C26BF1EDFB3E4D55B4DF53D /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A245665813B87EB49AC16FC /* AppModels.swift */; };
-		6F6E4617439A98AD096A56BE /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9DBEC31C90FC7C339EDC23 /* NotesView.swift */; };
-		8024C8B6D7EFCB259CF00325 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8E631F71CC0B2790B79115 /* Localizable.strings */; };
-		94409617BD06D5AE6824129A /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74BFCE989095B1CFA8DF3B /* PurchaseManager.swift */; };
-		9B8C9B0441509F7F312F6F12 /* TemplateCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6640D440336764172D04D148 /* TemplateCatalog.swift */; };
-		9F491B6E359A7AEFCAE5E705 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF766B511860990D1E778E2 /* ToolsView.swift */; };
-		B1582AAFD823D2BA12A22F45 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E495039ED3F5040410B00C3 /* Localizable.strings */; };
-		B578CF091943AA5E6FD168DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9127EC7FC032017BF3723C5F /* InfoPlist.strings */; };
-		BE3AFDD9B2113C74983FA0BF /* ExpressionEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57205BE5F379FAE51884F8 /* ExpressionEvaluator.swift */; };
-		BE6C79CAE9ACEF4E4E696989 /* FormulaPadCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F0C7263321C725839E052 /* FormulaPadCoreTests.swift */; };
-		CEF1BBE6EE43FE2C6532ECEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D69208D6162E2495E6A25D /* Foundation.framework */; };
-		D9609F062A0E4664917539AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92E7C8D5A07E8CF36F6BE7BC /* InfoPlist.strings */; };
-		DBF0136ED2F186D77BCC5518 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1594F7ACB686F96772A1C3D2 /* SettingsView.swift */; };
-		EE18E07169EBEB9FC339037D /* FormulaPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1346792F969FCB9C00153777 /* FormulaPadApp.swift */; };
-		EF890DD27BF362331A7FEC3E /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550D7A6690596043D5DE2D5 /* CalculateView.swift */; };
+		02A96E1017F41E7A6BEB8F82 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D87AD8E20971F6AAF997E3D /* SettingsView.swift */; };
+		07620F07057E2825FB1C57EA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A1B71A0FDC5A35DC8AD42B /* HistoryView.swift */; };
+		07C04F101D0F69DB25E11F6A /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F95B00B5C316826161F9D3 /* AppModels.swift */; };
+		0A3C4FDD3745D088B7656FAD /* UnitCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A03EEB8845B324425D7DA1 /* UnitCatalog.swift */; };
+		0D77AE428578DC014DD32994 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084EEF67DCE9CF8626889413 /* ToolsView.swift */; };
+		13C901F5CB9572F6159E5794 /* FormulaPad.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 1301A8B3A5456DF255721DBB /* FormulaPad.storekit */; };
+		1D83B5527C0C025590EBA4B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA5F3D9AD5ECDE5706390BAE /* InfoPlist.strings */; };
+		27234637ECE5863BF4A21A10 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 807EBC0F4C4FE70D4AA7D81F /* Localizable.strings */; };
+		2CF37EDA48E1A02AAA727AFC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9919C5F15FBEED929C13364B /* Localizable.strings */; };
+		3724F6C0949A24DEBF35A195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CC5C81466AA82E6FFED530 /* Foundation.framework */; };
+		4CA411140D157DFCC455750B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CC5C81466AA82E6FFED530 /* Foundation.framework */; };
+		54F98FEC8D8B02C3574C7F0F /* FormulaPadCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1FF8B0A49967935026625 /* FormulaPadCoreTests.swift */; };
+		56CD748B73DD037ECF1883AF /* FormulaPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533480D587801B117397FA0B /* FormulaPadApp.swift */; };
+		587BE8CEF2B02BFC88E6B7AE /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AF2555EAF3D2059DE73F53 /* LocalizationService.swift */; };
+		5CE3DB3B3AFCEFF4289F7121 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6754B8D841B819C876B8E9 /* CalculateView.swift */; };
+		646D3BE5ACC54C79C73CD384 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 619D8B9013ADBD1E09D988FF /* InfoPlist.strings */; };
+		67C77FEAAE8A09516968FF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A12E9773E3DB91ABE05917 /* Assets.xcassets */; };
+		884021B80169664C25121581 /* TemplateCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0398EBACFC07C7BBBFD587B /* TemplateCatalog.swift */; };
+		9A76CCC588CE4FAF67139C69 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8BAF3F8E711CC6F86EFE1D /* AppStyle.swift */; };
+		AE1553F57C25B7575D5C2E06 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422732763682740B67CE364 /* NotesView.swift */; };
+		B5611087F8498DE10A4B5F74 /* ExpressionEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FD0162CE57ACA4DBC03DD3 /* ExpressionEvaluator.swift */; };
+		C056288171A1C905DC554B8C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6793CB98F1BF5351BC8B758F /* RootView.swift */; };
+		C8247D32402DBB41532A69FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 325ED1D6E43377E7584B0BE7 /* Localizable.strings */; };
+		E39D27A5513F0F43675554D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0197EFA93F7DC61F9890F3B /* InfoPlist.strings */; };
+		E708522EAF38A658B1899A62 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119244A9CDEA3BA2F8C5CAF1 /* PurchaseManager.swift */; };
+		F19B0106FCC4507F1A52AD37 /* FormulaPadStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E53274E27D7606157137F0E /* FormulaPadStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		34AF3062D0DA6BD7584120A0 /* PBXContainerItemProxy */ = {
+		816FBD61DE9F20B64B9BE31D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 19F5FD74BCD9194886806AA9 /* Project object */;
+			containerPortal = 5FFDD5283FF6BB4FEFB8B3A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CA2E5922E07CC3E6E94A619F;
+			remoteGlobalIDString = 4DEC0D473074388D9C76563A;
 			remoteInfo = FormulaPad;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A38123870EF19174663576 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = FormulaPad/Views/RootView.swift; sourceTree = "<group>"; };
-		041392294FE92060D9F6AAE0 /* HistoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = FormulaPad/Views/HistoryView.swift; sourceTree = "<group>"; };
-		1274ED8B3AD4F63C8C392943 /* FormulaPad.storekit */ = {isa = PBXFileReference; includeInIndex = 1; name = FormulaPad.storekit; path = FormulaPad/Resources/StoreKit/FormulaPad.storekit; sourceTree = "<group>"; };
-		1346792F969FCB9C00153777 /* FormulaPadApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormulaPadApp.swift; path = FormulaPad/App/FormulaPadApp.swift; sourceTree = "<group>"; };
-		1594F7ACB686F96772A1C3D2 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = FormulaPad/Views/SettingsView.swift; sourceTree = "<group>"; };
-		24741AA98FC3586C49D7BF45 /* UnitCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitCatalog.swift; path = FormulaPad/Services/UnitCatalog.swift; sourceTree = "<group>"; };
-		2F9DBEC31C90FC7C339EDC23 /* NotesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotesView.swift; path = FormulaPad/Views/NotesView.swift; sourceTree = "<group>"; };
-		32D66E8C4D43B8452A19794F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = FormulaPad/Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		379F0C7263321C725839E052 /* FormulaPadCoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormulaPadCoreTests.swift; path = FormulaPadTests/FormulaPadCoreTests.swift; sourceTree = "<group>"; };
-		4550D7A6690596043D5DE2D5 /* CalculateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalculateView.swift; path = FormulaPad/Views/CalculateView.swift; sourceTree = "<group>"; };
-		47FB45A16DFA4563629A71F1 /* FormulaPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulaPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5217329BA18F5D07BB53D08C /* LocalizationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizationService.swift; path = FormulaPad/Services/LocalizationService.swift; sourceTree = "<group>"; };
-		6640D440336764172D04D148 /* TemplateCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateCatalog.swift; path = FormulaPad/Services/TemplateCatalog.swift; sourceTree = "<group>"; };
-		7BF766B511860990D1E778E2 /* ToolsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolsView.swift; path = FormulaPad/Views/ToolsView.swift; sourceTree = "<group>"; };
-		82056B31FFC9E44E435232BF /* FormulaPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormulaPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		89FEEE69E80EB9ADA353A89C /* AppStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppStyle.swift; path = FormulaPad/Services/AppStyle.swift; sourceTree = "<group>"; };
-		8E495039ED3F5040410B00C3 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "FormulaPad/Resources/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		9127EC7FC032017BF3723C5F /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = FormulaPad/Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		92E7C8D5A07E8CF36F6BE7BC /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = FormulaPad/Resources/ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		99447246C8F91B09E38A8CFE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FormulaPad/Resources/Assets.xcassets; sourceTree = "<group>"; };
-		9A245665813B87EB49AC16FC /* AppModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppModels.swift; path = FormulaPad/Models/AppModels.swift; sourceTree = "<group>"; };
-		AA57205BE5F379FAE51884F8 /* ExpressionEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpressionEvaluator.swift; path = FormulaPad/Services/ExpressionEvaluator.swift; sourceTree = "<group>"; };
-		C1D69208D6162E2495E6A25D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA39F66C91D2E4A6AF17450C /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "FormulaPad/Resources/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		EF74BFCE989095B1CFA8DF3B /* PurchaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseManager.swift; path = FormulaPad/Services/PurchaseManager.swift; sourceTree = "<group>"; };
-		EF8E631F71CC0B2790B79115 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = FormulaPad/Resources/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F21985472309D271CC738605 /* FormulaPadStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormulaPadStore.swift; path = FormulaPad/Services/FormulaPadStore.swift; sourceTree = "<group>"; };
+		0422732763682740B67CE364 /* NotesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotesView.swift; path = FormulaPad/Views/NotesView.swift; sourceTree = "<group>"; };
+		04AF2555EAF3D2059DE73F53 /* LocalizationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizationService.swift; path = FormulaPad/Services/LocalizationService.swift; sourceTree = "<group>"; };
+		084EEF67DCE9CF8626889413 /* ToolsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolsView.swift; path = FormulaPad/Views/ToolsView.swift; sourceTree = "<group>"; };
+		119244A9CDEA3BA2F8C5CAF1 /* PurchaseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseManager.swift; path = FormulaPad/Services/PurchaseManager.swift; sourceTree = "<group>"; };
+		1301A8B3A5456DF255721DBB /* FormulaPad.storekit */ = {isa = PBXFileReference; includeInIndex = 1; name = FormulaPad.storekit; path = FormulaPad/Resources/StoreKit/FormulaPad.storekit; sourceTree = "<group>"; };
+		325ED1D6E43377E7584B0BE7 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "FormulaPad/Resources/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		39A12E9773E3DB91ABE05917 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FormulaPad/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		4E53274E27D7606157137F0E /* FormulaPadStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormulaPadStore.swift; path = FormulaPad/Services/FormulaPadStore.swift; sourceTree = "<group>"; };
+		533480D587801B117397FA0B /* FormulaPadApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormulaPadApp.swift; path = FormulaPad/App/FormulaPadApp.swift; sourceTree = "<group>"; };
+		619D8B9013ADBD1E09D988FF /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "FormulaPad/Resources/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		63A1B71A0FDC5A35DC8AD42B /* HistoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = FormulaPad/Views/HistoryView.swift; sourceTree = "<group>"; };
+		6793CB98F1BF5351BC8B758F /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = FormulaPad/Views/RootView.swift; sourceTree = "<group>"; };
+		78A03EEB8845B324425D7DA1 /* UnitCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnitCatalog.swift; path = FormulaPad/Services/UnitCatalog.swift; sourceTree = "<group>"; };
+		79CC5C81466AA82E6FFED530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A8BAF3F8E711CC6F86EFE1D /* AppStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppStyle.swift; path = FormulaPad/Services/AppStyle.swift; sourceTree = "<group>"; };
+		807EBC0F4C4FE70D4AA7D81F /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = FormulaPad/Resources/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		88B1FF8B0A49967935026625 /* FormulaPadCoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormulaPadCoreTests.swift; path = FormulaPadTests/FormulaPadCoreTests.swift; sourceTree = "<group>"; };
+		8D87AD8E20971F6AAF997E3D /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = FormulaPad/Views/SettingsView.swift; sourceTree = "<group>"; };
+		9919C5F15FBEED929C13364B /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = FormulaPad/Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A0398EBACFC07C7BBBFD587B /* TemplateCatalog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateCatalog.swift; path = FormulaPad/Services/TemplateCatalog.swift; sourceTree = "<group>"; };
+		BF6754B8D841B819C876B8E9 /* CalculateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalculateView.swift; path = FormulaPad/Views/CalculateView.swift; sourceTree = "<group>"; };
+		C0197EFA93F7DC61F9890F3B /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = FormulaPad/Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3FD0162CE57ACA4DBC03DD3 /* ExpressionEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpressionEvaluator.swift; path = FormulaPad/Services/ExpressionEvaluator.swift; sourceTree = "<group>"; };
+		DA5F3D9AD5ECDE5706390BAE /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = FormulaPad/Resources/ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0CE5A6B57E233FEE38A0F63 /* FormulaPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulaPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71FC660293873D382DEBDEB /* FormulaPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormulaPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F95B00B5C316826161F9D3 /* AppModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppModels.swift; path = FormulaPad/Models/AppModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80839CA92D81D3414F4EBB1C /* Frameworks */ = {
+		8A7532216BF224BB3154B21B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523BA72CB4585D3177A8554D /* Foundation.framework in Frameworks */,
+				3724F6C0949A24DEBF35A195 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84EB03C5B99C8EA1D7EDD42F /* Frameworks */ = {
+		8B59DAA72BECA6A7BA1ED76A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF1BBE6EE43FE2C6532ECEA /* Foundation.framework in Frameworks */,
+				4CA411140D157DFCC455750B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38FB456105E905A4E8FD692A /* Products */ = {
+		2C5F98F9064332B5DF105B93 /* FormulaPad */ = {
 			isa = PBXGroup;
 			children = (
-				47FB45A16DFA4563629A71F1 /* FormulaPad.app */,
-				82056B31FFC9E44E435232BF /* FormulaPadTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5C14DADB659ECAAF14D7FEE9 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C1D69208D6162E2495E6A25D /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		90B7C596368892C743BB80BC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5C14DADB659ECAAF14D7FEE9 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		91575391D906852F589F26BC /* FormulaPad */ = {
-			isa = PBXGroup;
-			children = (
-				1346792F969FCB9C00153777 /* FormulaPadApp.swift */,
-				9A245665813B87EB49AC16FC /* AppModels.swift */,
-				89FEEE69E80EB9ADA353A89C /* AppStyle.swift */,
-				AA57205BE5F379FAE51884F8 /* ExpressionEvaluator.swift */,
-				F21985472309D271CC738605 /* FormulaPadStore.swift */,
-				5217329BA18F5D07BB53D08C /* LocalizationService.swift */,
-				EF74BFCE989095B1CFA8DF3B /* PurchaseManager.swift */,
-				6640D440336764172D04D148 /* TemplateCatalog.swift */,
-				24741AA98FC3586C49D7BF45 /* UnitCatalog.swift */,
-				4550D7A6690596043D5DE2D5 /* CalculateView.swift */,
-				041392294FE92060D9F6AAE0 /* HistoryView.swift */,
-				2F9DBEC31C90FC7C339EDC23 /* NotesView.swift */,
-				03A38123870EF19174663576 /* RootView.swift */,
-				1594F7ACB686F96772A1C3D2 /* SettingsView.swift */,
-				7BF766B511860990D1E778E2 /* ToolsView.swift */,
-				99447246C8F91B09E38A8CFE /* Assets.xcassets */,
-				9127EC7FC032017BF3723C5F /* InfoPlist.strings */,
-				32D66E8C4D43B8452A19794F /* Localizable.strings */,
-				92E7C8D5A07E8CF36F6BE7BC /* InfoPlist.strings */,
-				EF8E631F71CC0B2790B79115 /* Localizable.strings */,
-				DA39F66C91D2E4A6AF17450C /* InfoPlist.strings */,
-				8E495039ED3F5040410B00C3 /* Localizable.strings */,
-				1274ED8B3AD4F63C8C392943 /* FormulaPad.storekit */,
+				533480D587801B117397FA0B /* FormulaPadApp.swift */,
+				F8F95B00B5C316826161F9D3 /* AppModels.swift */,
+				7A8BAF3F8E711CC6F86EFE1D /* AppStyle.swift */,
+				D3FD0162CE57ACA4DBC03DD3 /* ExpressionEvaluator.swift */,
+				4E53274E27D7606157137F0E /* FormulaPadStore.swift */,
+				04AF2555EAF3D2059DE73F53 /* LocalizationService.swift */,
+				119244A9CDEA3BA2F8C5CAF1 /* PurchaseManager.swift */,
+				A0398EBACFC07C7BBBFD587B /* TemplateCatalog.swift */,
+				78A03EEB8845B324425D7DA1 /* UnitCatalog.swift */,
+				BF6754B8D841B819C876B8E9 /* CalculateView.swift */,
+				63A1B71A0FDC5A35DC8AD42B /* HistoryView.swift */,
+				0422732763682740B67CE364 /* NotesView.swift */,
+				6793CB98F1BF5351BC8B758F /* RootView.swift */,
+				8D87AD8E20971F6AAF997E3D /* SettingsView.swift */,
+				084EEF67DCE9CF8626889413 /* ToolsView.swift */,
+				39A12E9773E3DB91ABE05917 /* Assets.xcassets */,
+				C0197EFA93F7DC61F9890F3B /* InfoPlist.strings */,
+				9919C5F15FBEED929C13364B /* Localizable.strings */,
+				DA5F3D9AD5ECDE5706390BAE /* InfoPlist.strings */,
+				807EBC0F4C4FE70D4AA7D81F /* Localizable.strings */,
+				619D8B9013ADBD1E09D988FF /* InfoPlist.strings */,
+				325ED1D6E43377E7584B0BE7 /* Localizable.strings */,
+				1301A8B3A5456DF255721DBB /* FormulaPad.storekit */,
 			);
 			name = FormulaPad;
 			sourceTree = "<group>";
 		};
-		9E3141FBAC430186D101BC65 /* FormulaPadTests */ = {
+		322E560D8D0D31F6CDB8A1D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				379F0C7263321C725839E052 /* FormulaPadCoreTests.swift */,
+				97E209B0DBA573D156937733 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6894B618EF155B2787F3C0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CE5A6B57E233FEE38A0F63 /* FormulaPad.app */,
+				F71FC660293873D382DEBDEB /* FormulaPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69982F6860D9000ABAC4202C /* FormulaPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				88B1FF8B0A49967935026625 /* FormulaPadCoreTests.swift */,
 			);
 			name = FormulaPadTests;
 			sourceTree = "<group>";
 		};
-		F4CFD00782D3AA06EE55BC7A = {
+		97E209B0DBA573D156937733 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				38FB456105E905A4E8FD692A /* Products */,
-				90B7C596368892C743BB80BC /* Frameworks */,
-				91575391D906852F589F26BC /* FormulaPad */,
-				9E3141FBAC430186D101BC65 /* FormulaPadTests */,
+				79CC5C81466AA82E6FFED530 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C3EA2C4364E1BE6EEF417465 = {
+			isa = PBXGroup;
+			children = (
+				6894B618EF155B2787F3C0D2 /* Products */,
+				322E560D8D0D31F6CDB8A1D8 /* Frameworks */,
+				2C5F98F9064332B5DF105B93 /* FormulaPad */,
+				69982F6860D9000ABAC4202C /* FormulaPadTests */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C821A3A255157F47B59C92C /* FormulaPadTests */ = {
+		4DEC0D473074388D9C76563A /* FormulaPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11B4C3F9D76331423340F632 /* Build configuration list for PBXNativeTarget "FormulaPadTests" */;
+			buildConfigurationList = 75A641D9ACA55ABAAEA21636 /* Build configuration list for PBXNativeTarget "FormulaPad" */;
 			buildPhases = (
-				D7701BE699231260480E80F2 /* Sources */,
-				84EB03C5B99C8EA1D7EDD42F /* Frameworks */,
-				6582F5DA4B97BC51592DD861 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4788378FB8BEBA26027D8943 /* PBXTargetDependency */,
-			);
-			name = FormulaPadTests;
-			productName = FormulaPadTests;
-			productReference = 82056B31FFC9E44E435232BF /* FormulaPadTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CA2E5922E07CC3E6E94A619F /* FormulaPad */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD012CC39789602316BAD6F0 /* Build configuration list for PBXNativeTarget "FormulaPad" */;
-			buildPhases = (
-				E817E9920234038FA88C3024 /* Sources */,
-				80839CA92D81D3414F4EBB1C /* Frameworks */,
-				0F1EB6786C8CC6C9883826E9 /* Resources */,
+				DB8184D4D88BC761606590EA /* Sources */,
+				8B59DAA72BECA6A7BA1ED76A /* Frameworks */,
+				B317E7BEF919891945BC2779 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -203,28 +185,46 @@
 			);
 			name = FormulaPad;
 			productName = FormulaPad;
-			productReference = 47FB45A16DFA4563629A71F1 /* FormulaPad.app */;
+			productReference = E0CE5A6B57E233FEE38A0F63 /* FormulaPad.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A2AA5FBD2436CDA80D17756A /* FormulaPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB4D881B604014FA7DFE932 /* Build configuration list for PBXNativeTarget "FormulaPadTests" */;
+			buildPhases = (
+				F29468DBD89C2DF1E42A297D /* Sources */,
+				8A7532216BF224BB3154B21B /* Frameworks */,
+				3D964E45C01EC2A3AE45A6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DE5E4FB7B7185CBB8A51C5 /* PBXTargetDependency */,
+			);
+			name = FormulaPadTests;
+			productName = FormulaPadTests;
+			productReference = F71FC660293873D382DEBDEB /* FormulaPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		19F5FD74BCD9194886806AA9 /* Project object */ = {
+		5FFDD5283FF6BB4FEFB8B3A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					9C821A3A255157F47B59C92C = {
+					4DEC0D473074388D9C76563A = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = CA2E5922E07CC3E6E94A619F;
 					};
-					CA2E5922E07CC3E6E94A619F = {
+					A2AA5FBD2436CDA80D17756A = {
 						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 4DEC0D473074388D9C76563A;
 					};
 				};
 			};
-			buildConfigurationList = EEFC5BBB50D4E22EE442A208 /* Build configuration list for PBXProject "FormulaPad" */;
+			buildConfigurationList = 079E2C7C0E014CB9F314D9BA /* Build configuration list for PBXProject "FormulaPad" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,88 +232,161 @@
 				en,
 				Base,
 			);
-			mainGroup = F4CFD00782D3AA06EE55BC7A;
+			mainGroup = C3EA2C4364E1BE6EEF417465;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 38FB456105E905A4E8FD692A /* Products */;
+			productRefGroup = 6894B618EF155B2787F3C0D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CA2E5922E07CC3E6E94A619F /* FormulaPad */,
-				9C821A3A255157F47B59C92C /* FormulaPadTests */,
+				4DEC0D473074388D9C76563A /* FormulaPad */,
+				A2AA5FBD2436CDA80D17756A /* FormulaPadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F1EB6786C8CC6C9883826E9 /* Resources */ = {
+		3D964E45C01EC2A3AE45A6FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121BAD13175D3541FB9485F9 /* Assets.xcassets in Resources */,
-				B578CF091943AA5E6FD168DD /* InfoPlist.strings in Resources */,
-				13DE0ACF68F9CA6729BB09AB /* Localizable.strings in Resources */,
-				D9609F062A0E4664917539AB /* InfoPlist.strings in Resources */,
-				8024C8B6D7EFCB259CF00325 /* Localizable.strings in Resources */,
-				45416EE3DB5EE8959F1DE317 /* InfoPlist.strings in Resources */,
-				B1582AAFD823D2BA12A22F45 /* Localizable.strings in Resources */,
-				04330176F7AD27D4A51B4529 /* FormulaPad.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6582F5DA4B97BC51592DD861 /* Resources */ = {
+		B317E7BEF919891945BC2779 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C77FEAAE8A09516968FF2A /* Assets.xcassets in Resources */,
+				E39D27A5513F0F43675554D6 /* InfoPlist.strings in Resources */,
+				2CF37EDA48E1A02AAA727AFC /* Localizable.strings in Resources */,
+				1D83B5527C0C025590EBA4B1 /* InfoPlist.strings in Resources */,
+				27234637ECE5863BF4A21A10 /* Localizable.strings in Resources */,
+				646D3BE5ACC54C79C73CD384 /* InfoPlist.strings in Resources */,
+				C8247D32402DBB41532A69FB /* Localizable.strings in Resources */,
+				13C901F5CB9572F6159E5794 /* FormulaPad.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7701BE699231260480E80F2 /* Sources */ = {
+		DB8184D4D88BC761606590EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6C79CAE9ACEF4E4E696989 /* FormulaPadCoreTests.swift in Sources */,
+				56CD748B73DD037ECF1883AF /* FormulaPadApp.swift in Sources */,
+				07C04F101D0F69DB25E11F6A /* AppModels.swift in Sources */,
+				9A76CCC588CE4FAF67139C69 /* AppStyle.swift in Sources */,
+				B5611087F8498DE10A4B5F74 /* ExpressionEvaluator.swift in Sources */,
+				F19B0106FCC4507F1A52AD37 /* FormulaPadStore.swift in Sources */,
+				587BE8CEF2B02BFC88E6B7AE /* LocalizationService.swift in Sources */,
+				E708522EAF38A658B1899A62 /* PurchaseManager.swift in Sources */,
+				884021B80169664C25121581 /* TemplateCatalog.swift in Sources */,
+				0A3C4FDD3745D088B7656FAD /* UnitCatalog.swift in Sources */,
+				5CE3DB3B3AFCEFF4289F7121 /* CalculateView.swift in Sources */,
+				07620F07057E2825FB1C57EA /* HistoryView.swift in Sources */,
+				AE1553F57C25B7575D5C2E06 /* NotesView.swift in Sources */,
+				C056288171A1C905DC554B8C /* RootView.swift in Sources */,
+				02A96E1017F41E7A6BEB8F82 /* SettingsView.swift in Sources */,
+				0D77AE428578DC014DD32994 /* ToolsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E817E9920234038FA88C3024 /* Sources */ = {
+		F29468DBD89C2DF1E42A297D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE18E07169EBEB9FC339037D /* FormulaPadApp.swift in Sources */,
-				6C26BF1EDFB3E4D55B4DF53D /* AppModels.swift in Sources */,
-				5F84B41C827AC9A2DBF99362 /* AppStyle.swift in Sources */,
-				BE3AFDD9B2113C74983FA0BF /* ExpressionEvaluator.swift in Sources */,
-				35FE28716E1E1C7414CB90A1 /* FormulaPadStore.swift in Sources */,
-				02A1773029443D7AAD513458 /* LocalizationService.swift in Sources */,
-				94409617BD06D5AE6824129A /* PurchaseManager.swift in Sources */,
-				9B8C9B0441509F7F312F6F12 /* TemplateCatalog.swift in Sources */,
-				2ABF6447156E9FA11EBA9784 /* UnitCatalog.swift in Sources */,
-				EF890DD27BF362331A7FEC3E /* CalculateView.swift in Sources */,
-				056EBA24CB32C3D47949818F /* HistoryView.swift in Sources */,
-				6F6E4617439A98AD096A56BE /* NotesView.swift in Sources */,
-				3856C1B9D9C471A9389CA1D7 /* RootView.swift in Sources */,
-				DBF0136ED2F186D77BCC5518 /* SettingsView.swift in Sources */,
-				9F491B6E359A7AEFCAE5E705 /* ToolsView.swift in Sources */,
+				54F98FEC8D8B02C3574C7F0F /* FormulaPadCoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4788378FB8BEBA26027D8943 /* PBXTargetDependency */ = {
+		00DE5E4FB7B7185CBB8A51C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FormulaPad;
-			target = CA2E5922E07CC3E6E94A619F /* FormulaPad */;
-			targetProxy = 34AF3062D0DA6BD7584120A0 /* PBXContainerItemProxy */;
+			target = 4DEC0D473074388D9C76563A /* FormulaPad */;
+			targetProxy = 816FBD61DE9F20B64B9BE31D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2676193E182B7ECE847AC468 /* Release */ = {
+		32887FA8BA3CE894E54D11D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42BEDDDACCB58319634B60E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.formulapad.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormulaPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FormulaPad";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B34680282B6F5979D46053 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,26 +413,7 @@
 			};
 			name = Release;
 		};
-		70D30AA23B5D41314086B7FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyajie.formulapad.tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormulaPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FormulaPad";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D6B8ED6681FB34310B696290 /* Debug */ = {
+		5BFD345A4590C92098076DB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -385,7 +439,7 @@
 			};
 			name = Debug;
 		};
-		DDE9FBCE3752A34925D2EBE3 /* Debug */ = {
+		AC0820DD0A759386D846438B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,7 +500,7 @@
 			};
 			name = Debug;
 		};
-		EDE78BE05DA0E364AC9F39C8 /* Debug */ = {
+		C300305ACD28691F2C8A9463 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,91 +518,37 @@
 			};
 			name = Debug;
 		};
-		FFB6D9324197B8DA2B6C9135 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11B4C3F9D76331423340F632 /* Build configuration list for PBXNativeTarget "FormulaPadTests" */ = {
+		079E2C7C0E014CB9F314D9BA /* Build configuration list for PBXProject "FormulaPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70D30AA23B5D41314086B7FF /* Release */,
-				EDE78BE05DA0E364AC9F39C8 /* Debug */,
+				AC0820DD0A759386D846438B /* Debug */,
+				32887FA8BA3CE894E54D11D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEFC5BBB50D4E22EE442A208 /* Build configuration list for PBXProject "FormulaPad" */ = {
+		75A641D9ACA55ABAAEA21636 /* Build configuration list for PBXNativeTarget "FormulaPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE9FBCE3752A34925D2EBE3 /* Debug */,
-				FFB6D9324197B8DA2B6C9135 /* Release */,
+				49B34680282B6F5979D46053 /* Release */,
+				5BFD345A4590C92098076DB4 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD012CC39789602316BAD6F0 /* Build configuration list for PBXNativeTarget "FormulaPad" */ = {
+		FCB4D881B604014FA7DFE932 /* Build configuration list for PBXNativeTarget "FormulaPadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2676193E182B7ECE847AC468 /* Release */,
-				D6B8ED6681FB34310B696290 /* Debug */,
+				42BEDDDACCB58319634B60E5 /* Release */,
+				C300305ACD28691F2C8A9463 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 19F5FD74BCD9194886806AA9 /* Project object */;
+	rootObject = 5FFDD5283FF6BB4FEFB8B3A5 /* Project object */;
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CA2E5922E07CC3E6E94A619F"
+               BlueprintIdentifier = "4DEC0D473074388D9C76563A"
                BuildableName = "FormulaPad.app"
                BlueprintName = "FormulaPad"
                ReferencedContainer = "container:FormulaPad.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C821A3A255157F47B59C92C"
+               BlueprintIdentifier = "A2AA5FBD2436CDA80D17756A"
                BuildableName = "FormulaPadTests.xctest"
                BlueprintName = "FormulaPadTests"
                ReferencedContainer = "container:FormulaPad.xcodeproj">
@@ -44,7 +44,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CA2E5922E07CC3E6E94A619F"
+            BlueprintIdentifier = "4DEC0D473074388D9C76563A"
             BuildableName = "FormulaPad.app"
             BlueprintName = "FormulaPad"
             ReferencedContainer = "container:FormulaPad.xcodeproj">
@@ -55,7 +55,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9C821A3A255157F47B59C92C"
+               BlueprintIdentifier = "A2AA5FBD2436CDA80D17756A"
                BuildableName = "FormulaPadTests.xctest"
                BlueprintName = "FormulaPadTests"
                ReferencedContainer = "container:FormulaPad.xcodeproj">
@@ -73,11 +73,14 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <StoreKitConfigurationFileReference
+         identifier = "../../../FormulaPad/Resources/StoreKit/FormulaPad.storekit">
+      </StoreKitConfigurationFileReference>
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CA2E5922E07CC3E6E94A619F"
+            BlueprintIdentifier = "4DEC0D473074388D9C76563A"
             BuildableName = "FormulaPad.app"
             BlueprintName = "FormulaPad"
             ReferencedContainer = "container:FormulaPad.xcodeproj">
@@ -94,7 +97,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CA2E5922E07CC3E6E94A619F"
+            BlueprintIdentifier = "4DEC0D473074388D9C76563A"
             BuildableName = "FormulaPad.app"
             BlueprintName = "FormulaPad"
             ReferencedContainer = "container:FormulaPad.xcodeproj">

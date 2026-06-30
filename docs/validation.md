@@ -18,6 +18,7 @@ xcodebuild -project FormulaPad.xcodeproj -scheme FormulaPad -destination 'generi
 Result:
 
 - Build succeeded.
+- Rebuilt successfully after regenerating the Xcode project from `scripts/generate_xcodeproj.rb`.
 
 ## Tests
 
@@ -32,6 +33,7 @@ Result:
 - Test succeeded.
 - 5 tests passed.
 - 0 failures.
+- Re-ran successfully after project regeneration.
 
 ## Info.plist
 
@@ -49,7 +51,6 @@ Confirmed keys:
 
 - `ITSAppUsesNonExemptEncryption => false`
 - `UIUserInterfaceStyle => Light`
-- `UIDeviceFamily => [1]`
 - `CFBundleShortVersionString => $(MARKETING_VERSION)`
 
 Target build settings confirm:
@@ -60,6 +61,18 @@ Target build settings confirm:
 - `TARGETED_DEVICE_FAMILY = 1`
 - `SUPPORTED_PLATFORMS = iphoneos iphonesimulator`
 - `ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon`
+
+The source Info.plist intentionally does not hard-code `UIDeviceFamily`; Xcode derives the built app value from `TARGETED_DEVICE_FAMILY = 1`.
+
+## StoreKit Scheme
+
+The shared scheme contains:
+
+```xml
+<StoreKitConfigurationFileReference
+   identifier = "../../../FormulaPad/Resources/StoreKit/FormulaPad.storekit">
+</StoreKitConfigurationFileReference>
+```
 
 ## App Icon
 

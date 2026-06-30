@@ -96,3 +96,16 @@ project.save
 scheme = Xcodeproj::XCScheme.new
 scheme.configure_with_targets(app_target, test_target, launch_target: app_target)
 scheme.save_as(project.path, APP_TARGET, true)
+
+scheme_path = File.join(PROJECT_PATH, 'xcshareddata', 'xcschemes', "#{APP_TARGET}.xcscheme")
+scheme_xml = File.read(scheme_path)
+unless scheme_xml.include?('StoreKitConfigurationFileReference')
+  scheme_xml = scheme_xml.sub(
+    "      allowLocationSimulation = \"YES\">\n",
+    "      allowLocationSimulation = \"YES\">\n" \
+    "      <StoreKitConfigurationFileReference\n" \
+    "         identifier = \"../../../FormulaPad/Resources/StoreKit/FormulaPad.storekit\">\n" \
+    "      </StoreKitConfigurationFileReference>\n"
+  )
+  File.write(scheme_path, scheme_xml)
+end

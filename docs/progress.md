@@ -25,6 +25,7 @@
 - Added localized CFBundleDisplayName resources.
 - Added Info.plist with light mode, iPhone-only settings, version 1.0.0, bundle ID, and export compliance.
 - Generated and integrated 1024x1024 RGB app icon with no alpha channel.
+- Bound the local StoreKit configuration file to the shared Run scheme for purchase testing.
 
 ### Stage 4: Store Preparation
 
@@ -40,6 +41,7 @@
 - Generated Xcode project and shared scheme.
 - Built app successfully for iOS Simulator.
 - Ran automated tests successfully: 5 tests, 0 failures.
+- Rebuilt and re-tested successfully after regenerating the Xcode project.
 - Validated Info.plist with `plutil`.
 - Confirmed target uses `FormulaPad/Resources/Info.plist`.
 - Confirmed app icon dimensions and no alpha channel.

@@ -65,6 +65,8 @@ Type: Non-consumable.
 
 The local StoreKit file is present for testing, but the product must still be created in App Store Connect before real review/submission.
 
+The shared Xcode scheme references `FormulaPad/Resources/StoreKit/FormulaPad.storekit` in the Run action for local purchase testing.
+
 ## Localization
 
 UI strings are controlled by `FormulaPad/Services/LocalizationService.swift` so the app can switch languages immediately from Settings.
