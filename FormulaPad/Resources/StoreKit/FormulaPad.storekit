@@ -1,0 +1,52 @@
+{
+  "identifier" : "FormulaPadStoreKit",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "28.00",
+      "familyShareable" : false,
+      "internalID" : "formulapad-pro-local",
+      "localizations" : [
+        {
+          "description" : "One-time unlock for unlimited history, math notes, full templates, plotting, and export.",
+          "displayName" : "FormulaPad Pro",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "一次购买，解锁无限历史、数学笔记、完整模板、函数图像和导出。",
+          "displayName" : "FormulaPad Pro",
+          "locale" : "zh_Hans"
+        },
+        {
+          "description" : "一度の購入で、無制限の履歴、数式メモ、全テンプレート、グラフ、エクスポートを解除します。",
+          "displayName" : "FormulaPad Pro",
+          "locale" : "ja_JP"
+        }
+      ],
+      "productID" : "com.zhouyajie.formulapad.pro",
+      "referenceName" : "FormulaPad Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "com.zhouyajie.formulapad",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 772934400,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
+
