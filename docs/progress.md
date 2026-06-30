@@ -29,6 +29,8 @@
 ### Stage 4: Store Preparation
 
 - Added multilingual privacy policy and support pages under `docs/`.
+- Created GitHub repository: `https://github.com/Davidzyj/formulapad`.
+- Enabled GitHub Pages from `main:/docs`.
 - Prepared App Store Connect metadata in English, Simplified Chinese, and Japanese.
 - Prepared StoreKit non-consumable product configuration for FormulaPad Pro.
 - Prepared usage guide, test cases, validation log, and handoff document.

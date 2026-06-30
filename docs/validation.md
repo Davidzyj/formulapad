@@ -76,3 +76,8 @@ Confirmed:
 - Alpha: no
 - Format: RGB PNG
 
+## GitHub
+
+- Repository created: `https://github.com/Davidzyj/formulapad`
+- Pages URL: `https://davidzyj.github.io/formulapad/`
+- Pages source: `main:/docs`

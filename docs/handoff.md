@@ -16,6 +16,8 @@ FormulaPad is a SwiftUI iPhone-only app built from an empty directory. It is a l
 
 ## Important Paths
 
+- GitHub repository: `https://github.com/Davidzyj/formulapad`
+- GitHub Pages site: `https://davidzyj.github.io/formulapad/`
 - Xcode project: `FormulaPad.xcodeproj`
 - App source: `FormulaPad/`
 - Main app entry: `FormulaPad/App/FormulaPadApp.swift`
@@ -95,10 +97,22 @@ Stored state:
 - Target build setting confirms `INFOPLIST_FILE = FormulaPad/Resources/Info.plist`.
 - `TARGETED_DEVICE_FAMILY = 1`.
 
+## GitHub Pages
+
+Pages is configured from:
+
+```text
+main:/docs
+```
+
+Public URLs:
+
+- `https://davidzyj.github.io/formulapad/privacy.html`
+- `https://davidzyj.github.io/formulapad/support.html`
+
 ## Known Follow-Ups
 
 - Add App Store screenshots later.
 - Create App Store Connect product and final price tier.
 - Archive with the owner Apple Developer team.
 - Validate StoreKit purchase flow with sandbox account after IAP is approved for testing.
-
