@@ -124,7 +124,11 @@ Coverage:
 
 1. Boot TrailLevel 6.5.
 2. Run `scripts/capture_app_store_screenshots.sh`.
-3. Confirm the script captures Calculate, History, Notes, Templates, Convert, and Plot.
-4. Confirm every App Store screenshot is `1242x2688`.
-5. Confirm every App Store screenshot reports `alpha=no`.
-6. Review `screenshots/6.5/zh-Hans/contact-sheet.png` for wrong pages, system alerts, blank views, and unreadable text.
+3. Confirm the script captures Simplified Chinese, English, and Japanese.
+4. Confirm each language captures Calculate, History, Notes, Templates, Convert, and Plot.
+5. Confirm every App Store screenshot is `1242x2688`.
+6. Confirm every App Store screenshot reports `alpha=no`.
+7. Review each contact sheet for wrong pages, system alerts, blank views, and unreadable text:
+   - `screenshots/6.5/zh-Hans/contact-sheet.png`
+   - `screenshots/6.5/en/contact-sheet.png`
+   - `screenshots/6.5/ja/contact-sheet.png`

@@ -50,6 +50,6 @@
 
 - Added Debug-only screenshot seed data for real running-app captures.
 - Added screenshot automation scripts under `scripts/`.
-- Captured Simplified Chinese 6.5-inch screenshots on TrailLevel 6.5.
-- Verified all six screenshots are 1242x2688 PNG files with no alpha channel.
-- Generated a contact sheet for quick visual review.
+- Captured Simplified Chinese, English, and Japanese 6.5-inch screenshots on TrailLevel 6.5.
+- Verified all 18 screenshots are 1242x2688 PNG files with no alpha channel.
+- Generated contact sheets for quick visual review in each language.

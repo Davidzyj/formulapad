@@ -1,0 +1,29 @@
+09:41
+Templates
+Convert
+Plot
+Templates
+%
+Percentage
+Part as a percentage of whole
+> Use Template
+Discount
+Sale price after discount
+D Use Template
+Compound Interest
+Future value over years
+Principal
+20000
+Annual rate %
+3.5
+Years
+3
+22174.3575
+Principal multiplied by one plus annual rate
+f（×）
+Calculate
+History
+Notes
+Tools
+Jave to Histor
+Settings

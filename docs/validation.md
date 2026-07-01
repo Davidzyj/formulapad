@@ -2,7 +2,7 @@
 
 ## Environment
 
-- Date: 2026-06-30
+- Date: 2026-06-30; screenshot set expanded on 2026-07-01
 - Xcode: 26.2
 - Swift: 6.2.3 compiler, project set to Swift 5 mode
 - Simulator used for tests: iPhone 17, iOS 26.2
@@ -36,6 +36,7 @@ Result:
 - 0 failures.
 - Re-ran successfully after project regeneration.
 - Re-ran successfully on TrailLevel 6.5 after adding screenshot automation.
+- Re-ran successfully on TrailLevel 6.5 after adding multilingual screenshot capture.
 
 ## Info.plist
 
@@ -126,9 +127,23 @@ Result:
 - `screenshots/6.5/zh-Hans/04-templates.png`: 1242x2688, alpha=no
 - `screenshots/6.5/zh-Hans/05-convert.png`: 1242x2688, alpha=no
 - `screenshots/6.5/zh-Hans/06-plot.png`: 1242x2688, alpha=no
+- `screenshots/6.5/en/01-calculate.png`: 1242x2688, alpha=no
+- `screenshots/6.5/en/02-history.png`: 1242x2688, alpha=no
+- `screenshots/6.5/en/03-notes.png`: 1242x2688, alpha=no
+- `screenshots/6.5/en/04-templates.png`: 1242x2688, alpha=no
+- `screenshots/6.5/en/05-convert.png`: 1242x2688, alpha=no
+- `screenshots/6.5/en/06-plot.png`: 1242x2688, alpha=no
+- `screenshots/6.5/ja/01-calculate.png`: 1242x2688, alpha=no
+- `screenshots/6.5/ja/02-history.png`: 1242x2688, alpha=no
+- `screenshots/6.5/ja/03-notes.png`: 1242x2688, alpha=no
+- `screenshots/6.5/ja/04-templates.png`: 1242x2688, alpha=no
+- `screenshots/6.5/ja/05-convert.png`: 1242x2688, alpha=no
+- `screenshots/6.5/ja/06-plot.png`: 1242x2688, alpha=no
 
-OCR checks passed for expected page content. Contact sheet reviewed at:
+OCR checks passed for expected page content. Contact sheets reviewed at:
 
 ```text
 screenshots/6.5/zh-Hans/contact-sheet.png
+screenshots/6.5/en/contact-sheet.png
+screenshots/6.5/ja/contact-sheet.png
 ```

@@ -171,7 +171,8 @@ final class FormulaPadStore: ObservableObject {
         guard ScreenshotSupport.isEnabled else { return }
 
         let now = Date()
-        languagePreference = .simplifiedChinese
+        let copy = ScreenshotSupport.copy
+        languagePreference = ScreenshotSupport.languagePreference
         angleMode = .degrees
         variables = [
             "principal": 20_000,
@@ -203,7 +204,7 @@ final class FormulaPadStore: ObservableObject {
             ),
             CalculationEntry(
                 id: UUID(uuidString: "9C849C97-C452-4D84-B73E-6DBAD64B69C2")!,
-                expression: "26 摄氏度 -> 华氏度",
+                expression: copy.conversionExpression,
                 result: "78.8",
                 kind: .conversion,
                 createdAt: now.addingTimeInterval(-12_400)
@@ -219,10 +220,10 @@ final class FormulaPadStore: ObservableObject {
         notes = [
             NoteEntry(
                 id: UUID(uuidString: "C02736E8-F8B8-4CB0-AD37-56F0C842A9C9")!,
-                title: "复利目标检查",
+                title: copy.compoundNoteTitle,
                 expression: "principal * (1 + rate)^years",
                 result: "22174.3575",
-                remarks: "用于比较三年后的本金增长，适合每月复盘。",
+                remarks: copy.compoundNoteRemarks,
                 category: .finance,
                 createdAt: now.addingTimeInterval(-20_000),
                 updatedAt: now.addingTimeInterval(-1_200),
@@ -230,10 +231,10 @@ final class FormulaPadStore: ObservableObject {
             ),
             NoteEntry(
                 id: UUID(uuidString: "9F5E2FE4-A7E7-48C7-81B4-4BE6B1519300")!,
-                title: "折扣采购估算",
+                title: copy.discountNoteTitle,
                 expression: "299 * (1 - 15 / 100)",
                 result: "254.15",
-                remarks: "保存常用采购折扣，方便回看计算依据。",
+                remarks: copy.discountNoteRemarks,
                 category: .work,
                 createdAt: now.addingTimeInterval(-30_000),
                 updatedAt: now.addingTimeInterval(-9_000)
@@ -273,6 +274,52 @@ enum ScreenshotSupport {
         #else
         return nil
         #endif
+    }
+
+    static var languagePreference: AppLanguagePreference {
+        #if DEBUG
+        switch ProcessInfo.processInfo.environment["FORMULAPAD_SCREENSHOT_LANGUAGE"] {
+        case "en", "en-US":
+            return .english
+        case "ja", "ja-JP":
+            return .japanese
+        case "zh-Hans", "zh", "zh-CN":
+            return .simplifiedChinese
+        default:
+            return .simplifiedChinese
+        }
+        #else
+        return .automatic
+        #endif
+    }
+
+    static var copy: ScreenshotCopy {
+        switch languagePreference {
+        case .english:
+            return ScreenshotCopy(
+                conversionExpression: "26 Celsius -> Fahrenheit",
+                compoundNoteTitle: "Compound Goal Check",
+                compoundNoteRemarks: "Compare three-year principal growth and keep the review note handy.",
+                discountNoteTitle: "Discount Purchase Estimate",
+                discountNoteRemarks: "Save a common purchase discount with the formula behind it."
+            )
+        case .japanese:
+            return ScreenshotCopy(
+                conversionExpression: "26 摂氏 -> 華氏",
+                compoundNoteTitle: "複利目標チェック",
+                compoundNoteRemarks: "3年後の元本成長を比較し、見直し用のメモとして保存します。",
+                discountNoteTitle: "割引購入の見積もり",
+                discountNoteRemarks: "よく使う割引計算を、式と一緒に保存できます。"
+            )
+        case .simplifiedChinese, .automatic:
+            return ScreenshotCopy(
+                conversionExpression: "26 摄氏度 -> 华氏度",
+                compoundNoteTitle: "复利目标检查",
+                compoundNoteRemarks: "用于比较三年后的本金增长，适合每月复盘。",
+                discountNoteTitle: "折扣采购估算",
+                discountNoteRemarks: "保存常用采购折扣，方便回看计算依据。"
+            )
+        }
     }
 
     static var selectedTab: AppTab {
@@ -320,4 +367,12 @@ enum ScreenshotSupport {
             )
         ]
     }
+}
+
+struct ScreenshotCopy {
+    let conversionExpression: String
+    let compoundNoteTitle: String
+    let compoundNoteRemarks: String
+    let discountNoteTitle: String
+    let discountNoteRemarks: String
 }

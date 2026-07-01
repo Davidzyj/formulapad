@@ -1,0 +1,46 @@
+09:41
+.今 GD
+FormulaPad
+Type a formula, reuse variables, keep the result.
+Angle
+Degrees
+Radians
+principal *（1 +
+rate）^years
+sin（
+7
+4
+1
+cos（
+C
+8
+5
+2
+•
+tan（
+sqrt（
+1og（
+In（
+9
+6
+3
+%
+= Calculate
+*
+-
++
+（
+）
+^
+！
+Result
+22174.3575
+Copy
+凸
+Share
+f（X）
+Calculate
+History
+Notes
+Tools
+Settings

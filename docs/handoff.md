@@ -30,7 +30,7 @@ FormulaPad is a SwiftUI iPhone-only app built from an empty directory. It is a l
 - App icon: `FormulaPad/Resources/Assets.xcassets/AppIcon.appiconset/FormulaPadIcon.png`
 - StoreKit config: `FormulaPad/Resources/StoreKit/FormulaPad.storekit`
 - GitHub Pages pages: `docs/index.html`, `docs/privacy.html`, `docs/support.html`
-- App Store screenshots: `screenshots/6.5/zh-Hans/`
+- App Store screenshots: `screenshots/6.5/zh-Hans/`, `screenshots/6.5/en/`, `screenshots/6.5/ja/`
 
 ## Regenerating Project
 
@@ -49,28 +49,34 @@ xcodebuild -project FormulaPad.xcodeproj -scheme FormulaPad -destination 'generi
 xcodebuild -project FormulaPad.xcodeproj -scheme FormulaPad -destination 'platform=iOS Simulator,name=iPhone 17,OS=26.2' test
 ```
 
-Verified on June 30, 2026:
+Verified on June 30, 2026, and rechecked on July 1, 2026:
 
 - Build succeeded.
 - Test succeeded: 5 tests, 0 failures.
 
 ## Screenshots
 
-Simplified Chinese 6.5-inch screenshots were captured on TrailLevel 6.5:
+Simplified Chinese, English, and Japanese 6.5-inch screenshots were captured on TrailLevel 6.5:
 
 ```sh
 scripts/capture_app_store_screenshots.sh
 ```
 
-Output:
+Output directories:
 
-- `screenshots/6.5/zh-Hans/01-calculate.png`
-- `screenshots/6.5/zh-Hans/02-history.png`
-- `screenshots/6.5/zh-Hans/03-notes.png`
-- `screenshots/6.5/zh-Hans/04-templates.png`
-- `screenshots/6.5/zh-Hans/05-convert.png`
-- `screenshots/6.5/zh-Hans/06-plot.png`
-- `screenshots/6.5/zh-Hans/contact-sheet.png`
+- `screenshots/6.5/zh-Hans/`
+- `screenshots/6.5/en/`
+- `screenshots/6.5/ja/`
+
+Each directory contains:
+
+- `01-calculate.png`
+- `02-history.png`
+- `03-notes.png`
+- `04-templates.png`
+- `05-convert.png`
+- `06-plot.png`
+- `contact-sheet.png`
 
 Each App Store screenshot is 1242x2688 and has no alpha channel.
 
